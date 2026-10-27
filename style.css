@@ -18,3 +18,22 @@
 .laptop-art{font-size:34px!important}.phone-art{font-size:37px!important}.audio-art{font-size:30px!important}
 .eh-bottom{border-top:1px solid #e1e4da;margin-top:12px;padding-top:8px;text-align:center;color:#557d47;font-size:12px}
 @media(max-width:600px){.electrohub-mock{left:10%;right:10%;padding:10px}.eh-product-art{height:39px}}
+
+
+/* ElectroHub clean Android-style preview */
+.eh-phone-preview{position:absolute;width:76%;max-width:300px;height:188px;top:50%;left:50%;transform:translate(-50%,-50%);box-sizing:border-box;padding:9px 12px;border:2px solid #dce4d8;border-radius:15px;background:#f8f8f0;color:#17251b;overflow:hidden;font-family:Arial,sans-serif;box-shadow:0 8px 22px #0004}
+.eh-phone-preview *{box-sizing:border-box}
+.eh-phone-preview .eh-status{display:flex;justify-content:space-between;font-size:8px;font-weight:bold}
+.eh-phone-preview .eh-brand{margin-top:5px;font-size:18px;font-weight:800;line-height:1.15}
+.eh-phone-preview .eh-brand span{color:#5b963f}
+.eh-phone-preview .eh-brand small{display:block;margin-top:3px;font-size:9px;font-weight:normal;color:#657064}
+.eh-phone-preview .eh-search{margin-top:7px;padding:6px 8px;border-radius:6px;background:#e8ecdf;font-size:9px}
+.eh-phone-preview .eh-section{display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:9px;font-weight:bold}
+.eh-phone-preview .eh-section small{font-size:8px;color:#56883d}
+.eh-phone-preview .eh-products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px}
+.eh-phone-preview .eh-product{min-width:0;padding:5px 3px;border:1px solid #e3e7dc;border-radius:7px;background:#fff;text-align:center}
+.eh-phone-preview .eh-product-art{display:grid;place-items:center;height:35px;border-radius:5px;background:#edf1e7;font-size:21px}
+.eh-phone-preview .eh-product b,.eh-phone-preview .eh-product small{display:block;margin-top:4px;font-size:8px;white-space:nowrap}
+.eh-phone-preview .eh-product small{font-size:7px;color:#64745e}
+.eh-phone-preview .eh-bottom{display:flex;justify-content:space-around;margin-top:8px;padding-top:6px;border-top:1px solid #e0e5d9;color:#52813e;font-size:12px}
+@media(max-width:650px){.eh-phone-preview{width:82%;padding:8px 9px}.eh-phone-preview .eh-product-art{height:31px}}
