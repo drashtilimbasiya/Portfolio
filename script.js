@@ -1,4 +1,4 @@
-/* ══════════════════════════════════════════════
+﻿/* ══════════════════════════════════════════════
    Portfolio JavaScript — Drashti Limbasiya
    ══════════════════════════════════════════════ */
 
@@ -119,3 +119,18 @@ if ('IntersectionObserver' in window) {
 
   fadeEls.forEach(el => observer.observe(el));
 }
+
+// --- Gallery cards: equal height within each grid row ---
+function equalizeGalleryRows() {
+  // Equalize Garage gallery cards (3-col grid)
+  var garageWraps = document.querySelectorAll('.garage-mockup-grid .port-phone-wrap');
+  if (garageWraps.length) {
+    var maxH = 0;
+    garageWraps.forEach(function(w) { w.style.height = 'auto'; });
+    garageWraps.forEach(function(w) { var h = w.offsetHeight; if (h > maxH) maxH = h; });
+    garageWraps.forEach(function(w) { w.style.height = maxH + 'px'; });
+  }
+}
+window.addEventListener('load', equalizeGalleryRows);
+window.addEventListener('resize', equalizeGalleryRows);
+setTimeout(equalizeGalleryRows, 300);
