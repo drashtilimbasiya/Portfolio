@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Drashti Limbasiya – BCA Student & Aspiring Android Application Developer from Surat, Gujarat. Portfolio showcasing ElectroHub, Smart Parking, and Patel Auto Garage projects.">
+  <title>Drashti Limbasiya | Android Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">DL<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#electrohub" class="nav-link">ElectroHub</a>
+        <a href="#parking" class="nav-link">Smart Parking</a>
+        <a href="#garage" class="nav-link">Garage App</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1 · HERO / HOME -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            BCA Student &nbsp;·&nbsp; Android Developer
+          </div>
+          <h1>Hi, I'm <span class="accent">Drashti</span><br>Limbasiya.</h1>
+          <p class="hero-sub">Aspiring Android Application Developer building practical mobile and web applications with Kotlin, Firebase, PHP and MySQL.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#electrohub">View My Projects <span class="btn-arrow">↓</span></a>
+            <a class="btn btn-outline" href="DRASHTI LIMBASIYA.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+          <div class="hero-contact-row">
+            <a href="mailto:drashtidhirubhailimbasiya@gmail.com" class="hero-contact-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              drashtidhirubhailimbasiya@gmail.com
+            </a>
+            <a href="tel:+919712025741" class="hero-contact-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.06 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+              +91 97120 25741
+            </a>
+            <span class="hero-contact-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Surat, Gujarat, India
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <div class="code-window">
+              <div class="code-titlebar">
+                <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                <span class="code-filename">Developer.kt</span>
+              </div>
+              <div class="code-body">
+                <p><span class="kw">class</span> <span class="cls">Developer</span> {</p>
+                <p class="i2"><span class="kw">val</span> name = <span class="str">"Drashti Limbasiya"</span></p>
+                <p class="i2"><span class="kw">val</span> role = <span class="str">"Android Developer"</span></p>
+                <p class="i2"><span class="kw">val</span> skills = listOf(</p>
+                <p class="i4"><span class="str">"Kotlin"</span>, <span class="str">"Firebase"</span>,</p>
+                <p class="i4"><span class="str">"XML"</span>, <span class="str">"PHP"</span></p>
+                <p class="i2">)</p>
+                <p class="i2"><span class="kw">val</span> learning = <span class="bool">true</span></p>
+                <p>}</p>
+                <div class="code-cursor"><span class="pulse-dot"></span> Always building something new</div>
+              </div>
+            </div>
+            <div class="floating-chip chip-android">▣ Android Apps</div>
+            <div class="floating-chip chip-web">⌘ Web Development</div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about">Scroll to explore <span>↓</span></a>
+    </section>
+
+    <!-- SECTION 2 · ABOUT ME -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-left">
+          <p class="section-label">01 / ABOUT ME</p>
+          <h2 class="section-title">Turning ideas into <span class="accent">working projects.</span></h2>
+          <p class="about-text">I am a BCA student at Veer Narmad South Gujarat University with a strong interest in Android development and software engineering. I have hands-on experience building full Android applications using Kotlin, XML and Firebase, along with web systems using PHP, MySQL, HTML and CSS.</p>
+          <p class="about-text">My three academic projects — ElectroHub, Smart Parking, and Patel Auto Garage — represent real-world applications covering e-commerce, parking management, and garage billing. I enjoy solving practical problems and continuously improving my skills.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-num accent">3</span>
+              <span class="highlight-label">Projects Built</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num accent">9.55</span>
+              <span class="highlight-label">Best Semester CGPA</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num accent">BCA</span>
+              <span class="highlight-label">Degree in Progress</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-card">
+            <div class="about-card-header">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 5a3 3 0 1 1-3 3 3 3 0 0 1 3-3zm0 14.2a7.2 7.2 0 0 1-6-3.22C6.06 16.15 9.93 15 12 15s5.94 1.15 6 2.98a7.2 7.2 0 0 1-6 3.22z"/></svg>
+              <strong>Quick Profile</strong>
+            </div>
+            <ul class="profile-list">
+              <li><span>Name</span><b>Drashti Limbasiya</b></li>
+              <li><span>Degree</span><b>Bachelor of Computer Applications (BCA)</b></li>
+              <li><span>University</span><b>VNSGU, Surat</b></li>
+              <li><span>Focus</span><b>Android Application Development</b></li>
+              <li><span>Location</span><b>Surat, Gujarat, India</b></li>
+              <li><span>Status</span><b class="status-badge">Open to Opportunities</b></li>
+            </ul>
+            <a href="DRASHTI LIMBASIYA.pdf" target="_blank" rel="noopener" class="resume-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              View Full Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 · SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <p class="section-label">02 / TECHNICAL SKILLS</p>
+        <h2 class="section-title">My <span class="accent">technical toolkit.</span></h2>
+        <p class="section-sub">Technologies and tools I use to build real applications.</p>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3>Android Development</h3>
+            <div class="skill-tags">
+              <span>Kotlin</span><span>XML</span><span>Android Studio</span><span>Jetpack</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span>Kotlin</span><span>Java</span><span>C</span><span>C++</span><span>Python</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3>Firebase</h3>
+            <div class="skill-tags">
+              <span>Authentication</span><span>Cloud Firestore</span><span>Storage</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h3>Web & Database</h3>
+            <div class="skill-tags">
+              <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.41 13.3M14.83 2.17A10 10 0 0 0 2.59 6.07M4.93 19.07a10 10 0 0 0 13.3 1.41"/></svg>
+            </div>
+            <h3>Tools & Platforms</h3>
+            <div class="skill-tags">
+              <span>GitHub</span><span>XAMPP</span><span>Visual Studio</span><span>Git</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Core Competencies</h3>
+            <div class="skill-tags">
+              <span>Problem Solving</span><span>Logical Thinking</span><span>Quick Learning</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECT 1 — ELECTROHUB
+    ═══════════════════════════════════════════════════════════ -->
+
+    <!-- SECTION 4 · ELECTROHUB OVERVIEW -->
+    <section class="section project-overview-section" id="electrohub">
+      <div class="container">
+        <p class="section-label">03 / PROJECT ONE</p>
+        <div class="project-intro-grid">
+          <div class="project-intro-left">
+            <div class="project-tag-row">
+              <span class="project-type-badge android-badge">Android App</span>
+              <span class="project-type-badge tech-badge">Kotlin · Firebase</span>
+            </div>
+            <h2 class="section-title">ElectroHub — <span class="accent">Shopping Application</span></h2>
+            <p class="project-desc">An Android electronics shopping application built with Kotlin, XML, and Firebase. Users can browse products by category and brand, search for items, add products to a cart or wishlist, and manage orders. The Smart Best Picks feature surfaces products based on rating, discount, price, and stock availability.</p>
+            <div class="feature-list">
+              <div class="feature-item"><span class="feature-dot"></span>Product browsing by category and brand</div>
+              <div class="feature-item"><span class="feature-dot"></span>Product search with filtering</div>
+              <div class="feature-item"><span class="feature-dot"></span>Cart and Wishlist management</div>
+              <div class="feature-item"><span class="feature-dot"></span>Smart Best Picks discovery feature</div>
+              <div class="feature-item"><span class="feature-dot"></span>Firebase Authentication and Firestore</div>
+              <div class="feature-item"><span class="feature-dot"></span>Order history and user profile</div>
+            </div>
+            <div class="tech-stack-row">
+              <span class="tech-chip">Kotlin</span>
+              <span class="tech-chip">XML Layouts</span>
+              <span class="tech-chip">Firebase Auth</span>
+              <span class="tech-chip">Cloud Firestore</span>
+              <span class="tech-chip">Glide</span>
+              <span class="tech-chip">Android Studio</span>
+            </div>
+          </div>
+          <div class="project-intro-right">
+            <div class="project-preview-frame phone-frame eh-hm-frame">
+              <div class="eh-hm-wrap">
+                <div class="eh-hm-status"><span>9:41</span><span class="eh-hm-icons">&#9679;&#9679;&#9650;</span></div>
+                <div class="eh-hm-header">Electro<span>Hub</span><small>Find your next tech</small></div>
+                <div class="eh-hm-search">&#128269; Search electronics...</div>
+                <div class="eh-hm-banner"><small>FIND YOUR NEXT TECH</small><b>Upgrade your<br>everyday.</b></div>
+                <div class="eh-hm-cats">
+                  <span>&#128241;<small>Phones</small></span>
+                  <span>&#128187;<small>Laptops</small></span>
+                  <span>&#127911;<small>Audio</small></span>
+                  <span>&#128250;<small>TVs</small></span>
+                </div>
+                <div class="eh-hm-sec">Featured Products<small>See all</small></div>
+                <div class="eh-hm-grid">
+                  <div class="eh-hm-prod">
+                    <div class="eh-hm-img phone-th">&#128241;</div>
+                    <b>Smartphone</b><small>&#8377;19,999</small>
+                    <div class="eh-hm-atc">+ Add to Cart</div>
+                  </div>
+                  <div class="eh-hm-prod">
+                    <div class="eh-hm-img laptop-th">&#128187;</div>
+                    <b>Laptop</b><small>&#8377;45,999</small>
+                    <div class="eh-hm-atc">+ Add to Cart</div>
+                  </div>
+                  <div class="eh-hm-prod">
+                    <div class="eh-hm-img phone-th">&#128241;</div>
+                    <b>Mobile Phones</b><small>&#8377;850</small>
+                    <div class="eh-hm-atc">+ Add to Cart</div>
+                  </div>
+                  <div class="eh-hm-prod">
+                    <div class="eh-hm-img tablet-th">&#128219;</div>
+                    <b>Tablets</b><small>&#8377;24,999</small>
+                    <div class="eh-hm-atc">+ Add to Cart</div>
+                  </div>
+                </div>
+                <div class="eh-hm-nav">&#8962;&nbsp;&nbsp;&#9825;&nbsp;&nbsp;&#128722;&nbsp;&nbsp;&#128100;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 · ELECTROHUB UI PREVIEWS -->
+    <section class="section ui-gallery-section" id="electrohub-ui">
+      <div class="container">
+        <p class="section-label">03 / UI PREVIEWS — ELECTROHUB</p>
+        <h2 class="section-title"><span class="accent">ElectroHub</span></h2>
+        <p class="section-sub">Realistic UI previews of key screens from the ElectroHub Android application.</p>
+        <div class="gallery-grid three-col">
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body">
+                  <div class="eh-ip-bar"><span>9:41</span><b>ElectroHub</b><span>&#9679;&#9679;&#9650;</span></div>
+                  <div class="eh-hm-search" style="padding:3px 7px;font-size:8px;">&#128269; Search electronics...</div>
+                  <div class="eh-hm-banner-sm"><small>FIND YOUR NEXT TECH</small><b>Upgrade your everyday</b></div>
+                  <div class="eh-hm-cats-sm">
+                    <span>&#128241;<br><small>Phones</small></span>
+                    <span>&#128187;<br><small>Laptops</small></span>
+                    <span>&#127911;<br><small>Audio</small></span>
+                    <span>&#128250;<br><small>TVs</small></span>
+                  </div>
+                  <div class="eh-hm-sec-sm">Featured Products<small>See all</small></div>
+                  <div class="eh-hm-grid-sm">
+                    <div class="eh-hm-prod-sm"><div class="eh-hm-img-sm phone-th">&#128241;</div><b>Smartphone</b><small>&#8377;19,999</small><div class="eh-hm-atc-sm">+ Add to Cart</div></div>
+                    <div class="eh-hm-prod-sm"><div class="eh-hm-img-sm laptop-th">&#128187;</div><b>Laptop</b><small>&#8377;45,999</small><div class="eh-hm-atc-sm">+ Add to Cart</div></div>
+                    <div class="eh-hm-prod-sm"><div class="eh-hm-img-sm phone-th">&#128241;</div><b>Mobile Phones</b><small>&#8377;850</small><div class="eh-hm-atc-sm">+ Add to Cart</div></div>
+                    <div class="eh-hm-prod-sm"><div class="eh-hm-img-sm tablet-th">&#128219;</div><b>Tablets</b><small>&#8377;24,999</small><div class="eh-hm-atc-sm">+ Add to Cart</div></div>
+                  </div>
+                  <div class="eh-ip-nav">&#8962;&nbsp;&#9825;&nbsp;&#128722;&nbsp;&#128100;</div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>Home Dashboard</h4>
+              <p>Search bar, promotional banner, category row, and featured product grid.</p>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body">
+                  <div class="eh-ip-bar"><span>9:41</span><b>Popular Products</b><span>&#9679;&#9679;&#9650;</span></div>
+                  <div class="eh-ip-search">&#128269; Search electronics...</div>
+                  <div class="eh-ip-filters"><span class="eh-fc active">All</span><span class="eh-fc">Phones</span><span class="eh-fc">Laptops</span><span class="eh-fc">Audio</span></div>
+                  <div class="port-prod-list">
+                    <div class="port-prod-row"><div class="port-prod-img laptop-th">&#128187;</div><div class="port-prod-info"><b>Laptop Pro 15&quot;</b><span>Electronics &middot; In stock</span><div class="port-stars">&#9733;&#9733;&#9733;&#9733;&#9734; <em>4.2</em></div><strong>&#8377;45,999</strong></div><span class="eh-ip-heart">&#9825;</span></div>
+                    <div class="port-prod-row"><div class="port-prod-img phone-th">&#128241;</div><div class="port-prod-info"><b>Smartphone X12</b><span>Electronics &middot; In stock</span><div class="port-stars">&#9733;&#9733;&#9733;&#9733;&#9733; <em>4.8</em></div><strong>&#8377;19,999</strong></div><span class="eh-ip-heart">&#9825;</span></div>
+                    <div class="port-prod-row"><div class="port-prod-img audio-th">&#127911;</div><div class="port-prod-info"><b>Wireless Headphones</b><span>Audio &middot; In stock</span><div class="port-stars">&#9733;&#9733;&#9733;&#9733;&#9734; <em>4.5</em></div><strong>&#8377;1,999</strong></div><span class="eh-ip-heart">&#9825;</span></div>
+                    <div class="port-prod-row"><div class="port-prod-img tablet-th">&#128219;</div><div class="port-prod-info"><b>Tablet 10&quot; HD</b><span>Electronics &middot; In stock</span><div class="port-stars">&#9733;&#9733;&#9733;&#9733;&#9734; <em>4.0</em></div><strong>&#8377;24,999</strong></div><span class="eh-ip-heart">&#9825;</span></div>
+                    <div class="port-prod-row"><div class="port-prod-img tv-th">&#128250;</div><div class="port-prod-info"><b>Smart TV 43&quot;</b><span>Electronics &middot; In stock</span><div class="port-stars">&#9733;&#9733;&#9733;&#9734;&#9734; <em>3.8</em></div><strong>&#8377;32,999</strong></div><span class="eh-ip-heart">&#9825;</span></div>
+                  </div>
+                  <div class="eh-ip-nav">&#8962;&nbsp;&#9825;&nbsp;&#128722;&nbsp;&#128100;</div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>Product Listing &amp; Detail</h4>
+              <p>Browse products with ratings, prices and add-to-cart / wishlist actions.</p>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body">
+                  <div class="eh-ip-bar"><span>9:41</span><b>My Cart (3)</b><span>&#9679;&#9679;&#9650;</span></div>
+                  <div class="port-cart-list">
+                    <div class="port-cart-row"><div class="port-prod-img laptop-th">&#128187;</div><div class="port-cart-info"><b>Laptop Pro 15&quot;</b><small>Qty 1</small><strong>&#8377;45,999</strong></div><span style="font-size:10px;color:#CBD5E1;">&#128465;</span></div>
+                    <div class="port-cart-row port-cart-hl"><div class="port-prod-img phone-th">&#128241;</div><div class="port-cart-info"><b>Budget Phone A1</b><small>Qty 1</small><strong>&#8377;850</strong></div><button class="eh-atc-btn">&#43; Add to Cart</button></div>
+                    <div class="port-cart-row"><div class="port-prod-img audio-th">&#127911;</div><div class="port-cart-info"><b>Wireless Earbuds</b><small>Qty 1</small><strong>&#8377;1,499</strong></div><span style="font-size:10px;color:#CBD5E1;">&#128465;</span></div>
+                  </div>
+                  <div class="port-cart-summary">
+                    <div class="port-sum-row"><span>Subtotal</span><b>&#8377;48,348</b></div>
+                    <div class="port-sum-row"><span>GST (18%)</span><b>&#8377;8,702</b></div>
+                    <div class="port-sum-total"><span>Total</span><b>&#8377;57,050</b></div>
+                  </div>
+                  <div class="port-proceed">Proceed to Order &#8594;</div>
+                  <div class="eh-ip-nav">&#8962;&nbsp;&#9825;&nbsp;&#128722;&nbsp;&#128100;</div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>Cart, Orders &amp; Profile</h4>
+              <p>Shopping cart with totals, order history, and user profile management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECT 2 — SMART PARKING
+    ═══════════════════════════════════════════════════════════ -->
+
+    <!-- SECTION 6 · SMART PARKING OVERVIEW -->
+    <section class="section project-overview-section project-alt" id="parking">
+      <div class="container">
+        <p class="section-label">04 / PROJECT TWO</p>
+        <div class="project-intro-grid reverse">
+          <div class="project-intro-left">
+            <div class="project-tag-row">
+              <span class="project-type-badge web-badge">Web System</span>
+              <span class="project-type-badge tech-badge">PHP · MySQL</span>
+            </div>
+            <h2 class="section-title">Smart Parking — <span class="accent">Management System</span></h2>
+            <p class="project-desc">A web-based parking management system developed with PHP, MySQL, HTML, CSS and JavaScript. The system allows an admin to manage parking slots, create and track bookings, handle QR-based payments, and view occupancy and revenue reports. A watchman interface supports slot monitoring, and users can view available slots and make bookings.</p>
+            <div class="feature-list">
+              <div class="feature-item"><span class="feature-dot"></span>Parking slot availability display and management</div>
+              <div class="feature-item"><span class="feature-dot"></span>Booking creation with vehicle and customer details</div>
+              <div class="feature-item"><span class="feature-dot"></span>QR-based payment interface</div>
+              <div class="feature-item"><span class="feature-dot"></span>Booking status tracking and receipts</div>
+              <div class="feature-item"><span class="feature-dot"></span>Admin, User and Watchman role interfaces</div>
+              <div class="feature-item"><span class="feature-dot"></span>Revenue and occupancy reports</div>
+            </div>
+            <div class="tech-stack-row">
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">MySQL</span>
+              <span class="tech-chip">HTML</span>
+              <span class="tech-chip">CSS</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">XAMPP</span>
+            </div>
+          </div>
+          <div class="project-intro-right">
+            <div class="project-preview-frame desktop-frame">
+              <img src="assets/smart-parking/parking_dashboard.png" alt="Smart Parking admin dashboard with slot overview and stats" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7 · SMART PARKING UI PREVIEWS -->
+    <section class="section ui-gallery-section" id="parking-ui">
+      <div class="container">
+        <p class="section-label">04 / UI PREVIEWS — SMART PARKING</p>
+        <h2 class="section-title"><span class="accent">Smart Parking</span></h2>
+        <p class="section-sub">Realistic UI previews of key screens from the Smart Parking web management system.</p>
+        <div class="gallery-grid three-col">
+          <div class="gallery-card">
+            <div class="gallery-img-wrap desktop-gallery-img">
+              <img src="assets/smart-parking/parking_dashboard.png" alt="Smart Parking admin dashboard with slot grid and statistics" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Admin Dashboard</h4>
+              <p>Slot overview, occupancy stats, and recent bookings at a glance.</p>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-img-wrap desktop-gallery-img">
+              <img src="assets/smart-parking/parking_booking.png" alt="Smart Parking booking management table and create booking form" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Booking Management</h4>
+              <p>Manage all bookings, filter by status, and create new bookings.</p>
+            </div>
+          </div>
+          <div class="gallery-card">
+            <div class="gallery-img-wrap desktop-gallery-img">
+              <img src="assets/smart-parking/parking_payment.png" alt="Smart Parking QR payment screen and revenue reports" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Payments & Reports</h4>
+              <p>QR-based payment workflow and revenue analytics with charts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECT 3 — PATEL AUTO GARAGE
+    ═══════════════════════════════════════════════════════════ -->
+
+    <!-- SECTION 8 · PATEL AUTO GARAGE OVERVIEW -->
+    <section class="section project-overview-section" id="garage">
+      <div class="container">
+        <p class="section-label">05 / PROJECT THREE</p>
+        <div class="project-intro-grid">
+          <div class="project-intro-left">
+            <div class="project-tag-row">
+              <span class="project-type-badge android-badge">Android App</span>
+              <span class="project-type-badge tech-badge">Kotlin · Firebase</span>
+            </div>
+            <h2 class="section-title">Patel Auto Garage — <span class="accent">Service & Billing App</span></h2>
+            <p class="project-desc">An Android application for managing a garage's customer service records, billing, expenses, and financial reports. Built with Kotlin and Firebase, the app enables the garage owner to create detailed bills with labour charges, GST, discounts and parts costs, track payments, generate PDF receipts, and share bills via WhatsApp. Profit and loss reports are available on weekly, monthly and two-month periods.</p>
+            <div class="feature-list">
+              <div class="feature-item"><span class="feature-dot"></span>Detailed bill creation with all charge fields</div>
+              <div class="feature-item"><span class="feature-dot"></span>Customer and vehicle information management</div>
+              <div class="feature-item"><span class="feature-dot"></span>Payment tracking with pending and received amounts</div>
+              <div class="feature-item"><span class="feature-dot"></span>PDF bill generation and WhatsApp sharing</div>
+              <div class="feature-item"><span class="feature-dot"></span>Expenses and stolen items tracking</div>
+              <div class="feature-item"><span class="feature-dot"></span>Profit & Loss reports (weekly / monthly / 2-month)</div>
+            </div>
+            <div class="tech-stack-row">
+              <span class="tech-chip">Kotlin</span>
+              <span class="tech-chip">XML Layouts</span>
+              <span class="tech-chip">Firebase Auth</span>
+              <span class="tech-chip">Cloud Firestore</span>
+              <span class="tech-chip">PDF Generation</span>
+              <span class="tech-chip">Android Studio</span>
+            </div>
+          </div>
+          <div class="project-intro-right">
+            <!-- Inline HTML/CSS mockup for Garage Dashboard (light theme) -->
+            <div class="project-preview-frame garage-inline-frame">
+              <div class="port-phone port-phone-ov"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body port-body-ov">
+                <div class="gm-topbar">
+                  <span class="gm-time">9:41</span>
+                  <span class="gm-appname">Patel Auto Garage</span>
+                  <span class="gm-icons">●●▰</span>
+                </div>
+                <div class="gm-dashboard">
+                  <p class="gm-welcome">Good Morning, Admin</p>
+                  <div class="gm-stats">
+                    <div class="gm-stat-card">
+                      <span class="gm-stat-icon">📋</span>
+                      <b>128</b>
+                      <small>Total Bills</small>
+                    </div>
+                    <div class="gm-stat-card pending">
+                      <span class="gm-stat-icon">⏳</span>
+                      <b>14</b>
+                      <small>Pending</small>
+                    </div>
+                    <div class="gm-stat-card received">
+                      <span class="gm-stat-icon">₹</span>
+                      <b>1.2L</b>
+                      <small>Received</small>
+                    </div>
+                    <div class="gm-stat-card month">
+                      <span class="gm-stat-icon">📅</span>
+                      <b>18.2K</b>
+                      <small>This Month</small>
+                    </div>
+                  </div>
+                  <div class="gm-section-head">Recent Bills</div>
+                  <div class="gm-bill-row">
+                    <div>
+                      <b>PAG-0128</b>
+                      <small>Rajesh Patel · Honda City · GJ05AA1234</small>
+                    </div>
+                    <span class="gm-badge paid">Paid</span>
+                  </div>
+                  <div class="gm-bill-row">
+                    <div>
+                      <b>PAG-0127</b>
+                      <small>Suresh Shah · Maruti Swift · GJ06BB5678</small>
+                    </div>
+                    <span class="gm-badge pending-b">Pending</span>
+                  </div>
+                  <div class="gm-bill-row">
+                    <div>
+                      <b>PAG-0126</b>
+                      <small>Amit Kumar · TVS Apache · GJ05CC9012</small>
+                    </div>
+                    <span class="gm-badge paid">Paid</span>
+                  </div>
+                </div>
+                <div class="gm-bottomnav">
+                  <span class="gm-nav-item active">🏠<small>Dashboard</small></span>
+                  <span class="gm-nav-item">📄<small>Bills</small></span>
+                  <span class="gm-nav-item">💰<small>Expenses</small></span>
+                  <span class="gm-nav-item">📊<small>Reports</small></span>
+                </div>
+              </div>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9 · PATEL AUTO GARAGE UI PREVIEWS -->
+    <section class="section ui-gallery-section garage-gallery-section" id="garage-ui">
+      <div class="container">
+        <p class="section-label">05 / UI PREVIEWS — PATEL AUTO GARAGE</p>
+        <h2 class="section-title">Garage <span class="accent">App</span></h2>
+        <p class="section-sub">Light-themed UI previews showing the key screens and workflows of the Patel Auto Garage application.</p>
+        <div class="gallery-grid three-col garage-mockup-grid">
+
+          <!-- Mockup 1: Create Bill -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body port-garage-body">
+                  <div class="gm-topbar"><span class="gm-time">9:41</span><span class="gm-appname">Create New Bill</span><span>&#8592;</span></div>
+                  <div class="gm-form">
+                    <div class="gm-field"><label>Customer Name</label><input readonly value="Rajesh Patel" /></div>
+                    <div class="gm-field"><label>Mobile Number</label><input readonly value="+91 98765 43210" /></div>
+                    <div class="gm-field-row">
+                      <div class="gm-field"><label>Vehicle Type</label><input readonly value="Car" /></div>
+                      <div class="gm-field"><label>Company</label><input readonly value="Honda" /></div>
+                    </div>
+                    <div class="gm-field-row">
+                      <div class="gm-field"><label>Model</label><input readonly value="City" /></div>
+                      <div class="gm-field"><label>Reg. No.</label><input readonly value="GJ05AA1234" /></div>
+                    </div>
+                    <div class="gm-field"><label>Complaint</label><textarea readonly>Engine oil change, brake pads check</textarea></div>
+                    <div class="gm-field-row charges">
+                      <div class="gm-field"><label>Labour (&#8377;)</label><input readonly value="1500" /></div>
+                      <div class="gm-field"><label>Parts (&#8377;)</label><input readonly value="800" /></div>
+                    </div>
+                    <div class="gm-field-row charges">
+                      <div class="gm-field"><label>GST (%)</label><input readonly value="18" /></div>
+                      <div class="gm-field"><label>Discount</label><input readonly value="100" /></div>
+                    </div>
+                    <div class="gm-total-bar">Total Amount: <b>&#8377; 2,614</b></div>
+                    <div class="gm-btn">Generate Bill</div>
+                  </div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>Create Bill</h4>
+              <p>Full billing form with customer, vehicle, charges, GST, discount and auto-calculated total.</p>
+            </div>
+          </div>
+
+          <!-- Mockup 2: View Bill & Payment -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body port-garage-body">
+                  <div class="gm-topbar"><span class="gm-time">9:41</span><span class="gm-appname">Bill Details</span><span>&#8592;</span></div>
+                  <div class="gm-receipt">
+                    <div class="gm-receipt-header"><b>PATEL AUTO GARAGE</b><small>&amp; Consultancy</small></div>
+                    <div class="gm-receipt-divider"></div>
+                    <div class="gm-receipt-row"><span>Bill No.</span><b>PAG-0128</b></div>
+                    <div class="gm-receipt-row"><span>Customer</span><b>Rajesh Patel</b></div>
+                    <div class="gm-receipt-row"><span>Vehicle</span><b>Honda City</b></div>
+                    <div class="gm-receipt-row"><span>Reg. No.</span><b>GJ05AA1234</b></div>
+                    <div class="gm-receipt-row"><span>Odometer</span><b>42,150 km</b></div>
+                    <div class="gm-receipt-divider"></div>
+                    <div class="gm-receipt-row"><span>Labour</span><b>&#8377; 1,500</b></div>
+                    <div class="gm-receipt-row"><span>Parts</span><b>&#8377; 800</b></div>
+                    <div class="gm-receipt-row"><span>GST (18%)</span><b>&#8377; 414</b></div>
+                    <div class="gm-receipt-row"><span>Discount</span><b>- &#8377; 100</b></div>
+                    <div class="gm-receipt-divider"></div>
+                    <div class="gm-receipt-total"><span>Total</span><b>&#8377; 2,614</b></div>
+                    <div class="gm-receipt-row pay"><span>Amount Paid</span><b class="green-txt">&#8377; 2,000</b></div>
+                    <div class="gm-receipt-row pay"><span>Balance Due</span><b class="red-txt">&#8377; 614</b></div>
+                    <div class="gm-receipt-actions">
+                      <button class="gm-action-btn pdf">&#128196; View PDF</button>
+                      <button class="gm-action-btn wa">&#128172; WhatsApp</button>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>View Bill &amp; Payment</h4>
+              <p>Complete bill details, payment tracking with balance due, PDF and WhatsApp sharing.</p>
+            </div>
+          </div>
+
+          <!-- Mockup 3: Profit & Loss Report -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrap port-phone-wrap">
+              <div class="port-phone"><div class="port-vol"></div><div class="port-pwr"></div>
+              <div class="port-screen">
+                <div class="port-notch"><div class="port-dot"></div></div>
+                <div class="port-body port-garage-body">
+                  <div class="gm-topbar"><span class="gm-time">9:41</span><span class="gm-appname">Reports</span><span>&#8592;</span></div>
+                  <div class="gm-report">
+                    <div class="gm-tab-row">
+                      <span class="gm-tab active">Weekly</span>
+                      <span class="gm-tab">Monthly</span>
+                      <span class="gm-tab">2-Month</span>
+                    </div>
+                    <div class="gm-period">October 27 &#8211; November 2, 2026</div>
+                    <div class="gm-report-cards">
+                      <div class="gm-rep-card income"><small>Total Income</small><b>&#8377; 12,400</b></div>
+                      <div class="gm-rep-card expense"><small>Total Expenses</small><b>&#8377; 4,200</b></div>
+                      <div class="gm-rep-card profit"><small>Net Profit</small><b>&#8377; 8,200</b></div>
+                    </div>
+                    <div class="gm-section-head">Breakdown</div>
+                    <div class="gm-breakdown-row"><span>Service Bills</span><b>&#8377; 10,500</b></div>
+                    <div class="gm-breakdown-row"><span>Parts Income</span><b>&#8377; 1,900</b></div>
+                    <div class="gm-breakdown-row expense"><span>Staff Wages</span><b>- &#8377; 2,500</b></div>
+                    <div class="gm-breakdown-row expense"><span>Shop Expenses</span><b>- &#8377; 1,700</b></div>
+                    <div class="gm-chart-area">
+                      <div class="gm-bar-label">Income vs Expenses</div>
+                      <div class="gm-bar-row"><span>Income</span><div class="gm-bar income-bar" style="flex:1;min-width:18px;max-width:48px;"></div><b class="gm-income-val">&#8377; 12,400</b></div>
+                      <div class="gm-bar-row"><span>Expense</span><div class="gm-bar expense-bar" style="width:35%"></div><small>4.2K</small></div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+            </div>
+            <div class="gallery-caption">
+              <h4>Profit &amp; Loss Reports</h4>
+              <p>Weekly, monthly and two-month income, expense and profit/loss summaries with chart.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10 · EDUCATION / RESUME / CONTACT -->
+    <section class="section final-section" id="contact">
+      <div class="container">
+        <div class="final-grid">
+
+          <!-- Education -->
+          <div class="final-col education-col">
+            <p class="section-label">06 / EDUCATION</p>
+            <h2 class="section-title">Academic <span class="accent">journey.</span></h2>
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <span class="tl-year">2024 – 2027 · IN PROGRESS</span>
+                  <h3>Bachelor of Computer Applications (BCA)</h3>
+                  <p>Veer Narmad South Gujarat University (VNSGU)</p>
+                  <div class="grade-grid">
+                    <div class="grade-item"><span>Semester 4</span><b>9.55 CGPA</b></div>
+                    <div class="grade-item"><span>Semester 3</span><b>9.27 CGPA</b></div>
+                    <div class="grade-item"><span>Semester 2</span><b>9.18 CGPA</b></div>
+                    <div class="grade-item"><span>Semester 1</span><b>8.91 CGPA</b></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <span class="tl-year">2024</span>
+                  <h3>Higher Secondary Certificate (HSC)</h3>
+                  <p>Gujarat State Board</p>
+                  <span class="grade-badge">99.14 Percentile</span>
+                </div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <span class="tl-year">2022</span>
+                  <h3>Secondary School Certificate (SSC)</h3>
+                  <p>Gujarat State Board</p>
+                  <span class="grade-badge">93.99 Percentile</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resume + Contact -->
+          <div class="final-col contact-col">
+            <p class="section-label">06 / GET IN TOUCH</p>
+            <h2 class="section-title">Let's <span class="accent">connect.</span></h2>
+            <p class="contact-intro">I am interested in developer opportunities, internships, and collaborating on practical projects. Feel free to reach out.</p>
+
+            <div class="contact-links">
+              <a href="mailto:drashtidhirubhailimbasiya@gmail.com" class="contact-link-card">
+                <div class="cl-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div class="cl-text">
+                  <span>Email</span>
+                  <b>drashtidhirubhailimbasiya@gmail.com</b>
+                </div>
+                <span class="cl-arrow">↗</span>
+              </a>
+              <a href="tel:+919712025741" class="contact-link-card">
+                <div class="cl-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.08 3.4 2 2 0 0 1 3.06 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+                </div>
+                <div class="cl-text">
+                  <span>Phone</span>
+                  <b>+91 97120 25741</b>
+                </div>
+                <span class="cl-arrow">↗</span>
+              </a>
+              <div class="contact-link-card no-link">
+                <div class="cl-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#72B88A" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="cl-text">
+                  <span>Location</span>
+                  <b>Surat, Gujarat, India</b>
+                </div>
+              </div>
+            </div>
+
+            <a href="DRASHTI LIMBASIYA.pdf" target="_blank" rel="noopener" class="btn btn-primary resume-download-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+              Download Full Resume (PDF)
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">DL<span>.</span></a>
+      <p>Designed &amp; built by Drashti Limbasiya · BCA Student · Surat, India</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+      <small>© <span id="year"></span> Drashti Limbasiya. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
